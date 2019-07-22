@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .fondbas {
      width: 100%;  
  }
@@ -7,3 +8,40 @@
  h1{
 margin-bottom: 50px;
  }
+=======
+
+
+section2{
+  width: 80%;
+  border: 1px solid red;
+  margin: auto;
+
+}
+
+article{
+  margin: 0%;
+  float: left;
+}
+
+.art6{
+  margin: 0%;
+  width: 40%;
+  border:1px solid;
+  display: block;
+
+}
+
+#uno{
+  width: 40%
+
+}
+#dos{
+width: 40%
+}
+#tres{
+width: 40%
+}
+#quatro{
+width: 30%
+}
+>>>>>>> b1b9d7d4af693b527f2543966362ed360bff69cd
