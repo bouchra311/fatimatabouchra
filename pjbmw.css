@@ -1,0 +1,35 @@
+
+
+section2{
+  width: 80%;
+  border: 1px solid red;
+  margin: auto;
+
+}
+
+article{
+  margin: 0%;
+  float: left;
+}
+
+.art6{
+  margin: 0%;
+  width: 40%;
+  border:1px solid;
+  display: block;
+
+}
+
+#uno{
+  width: 40%
+
+}
+#dos{
+width: 40%
+}
+#tres{
+width: 40%
+}
+#quatro{
+width: 30%
+}
