@@ -1,4 +1,12 @@
+footer{
 
+    width: 80%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  list-style-type: none;
+}
 
 section2{
   width: 80%;
