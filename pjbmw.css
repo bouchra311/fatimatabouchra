@@ -1,17 +1,112 @@
-<<<<<<< HEAD
-.fondbas {
-     width: 100%;  
- }
- .logo{
-     margin-top: 0%;
- }
- h1{
-margin-bottom: 50px;
- }
-=======
+header{
+  height: 951px;
+  background-image: url("premiere.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  position:relative;
+}
+h1{
+  font-family: 'Playfair Display', serif;;
+  color: white;
+  font-size: 60px;
+  margin-bottom:0;
+}
+h2{
+  font-family: 'Playfair Display', serif;;
+  color: black;
+  font-size: 50px;
+  margin-bottom:0;
+  margin-top: 30px;
+
+}
+h3{
+  font-family: 'Playfair Display', serif;;
+  color: white;
+  font-size: 40px;
+  margin-top: 10px;
+}
+h4{
+  font-family: 'Playfair Display', serif;;
+  color: black;
+  font-size: 30px;
+  margin-bottom:0;
+}
+.textform{
+top: 30%;
+}
+.fond{
+  margin-top: 10%;
+}
+.logo{
+  display:block;
+  margin: auto;
+}
+button{
+  text-align: center;
+}
+.Essai{
+  position: absolute;
+  display: flex;
+  left: 80%;
+  top: 77%;
+  justify-content: center;
+}
+.form{
+  height: 818px;
+  background-image: url("cinquieme.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  position:relative;
+}
+#formulaire{
+  width: 60px;
+  margin-top: auto;
+  display:block;
+  position:relative;
+  display: block;
+  left: 60%;
+  top: 20%;
+  align-content:justify;
+}
+.formstyle{
+  max-width: 500px;
+	margin: 10px auto;
+	padding: 26px;
+  font-family: 'Lato', sans-serif;
+  display: flex;
+  color: black;
+}
+.formstyle input[type="text"],
+.formstyle input[type="email"],
+.formstyle input[type="tel"]{
+	width: 350px;
+	margin-bottom: 20%;
+	border: 1px solid #ccc;
+	padding: 20%;
+	font: 95% 'Lato', sans-serif;
+  color:black;
+}
+.formstyle input[type="submit"]{
+  background: black;
+  color:white;
+  width: 200px;
+  height: 50px;
+  font-weight: bold;
+  display: block;
+  position:absolute;
+  left:90px;
+}
 
 
-section2{
+
+
+
+
+
+
+
+
+/*section2{
   width: 80%;
   border: 1px solid red;
   margin: auto;
@@ -43,5 +138,4 @@ width: 40%
 }
 #quatro{
 width: 30%
-}
->>>>>>> b1b9d7d4af693b527f2543966362ed360bff69cd
+}/
