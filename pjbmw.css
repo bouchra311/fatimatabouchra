@@ -1,71 +1,12 @@
 
-
-.fondbas {
-width: 100%;
- }
-
- .logo{
-margin-top: 0%;
-}
-
-
- h1{
-margin-bottom: 50px;
-}
-
-h3{
-font-size: 40px;
-font-family: 'Old Standard TT', serif;
-}
-h6{
-font-size: 14px;
-}
-
-p{
-font-size: 20px;
-font-family: 'Lato', sans-serif;
-}
-
-/*  footer*/
-
-footer{
-padding: auto;
-margin:auto;
-background-color: black;
-width: 100%;
-display: flex;
-flex-direction: row;
-justify-content: space-between;
-
-}
-
-footer li{
-color: white;
-list-style-type: none;
-}
-
-.logor{
-display: inline-block;
-}
-
-.rejoignez{
-display: flex;
-margin-right: 50px;
-color: white;
-}
-
-.liste3{
-display: flex;
-margin-right: 50px;
-color: white;
-
 header{
-  height: 951px;
+  height: 1030px;
   background-image: url("premiere.png");
   background-size: 100%;
   background-repeat: no-repeat;
   position:relative;
 }
+
 h1{
   font-family: 'Playfair Display', serif;;
   color: white;
@@ -85,12 +26,44 @@ h3{
   color: white;
   font-size: 40px;
   margin-top: 10px;
+
 }
+
 h4{
   font-family: 'Playfair Display', serif;;
   color: black;
   font-size: 30px;
   margin-bottom:0;
+}
+
+h5{
+  font-size: 22px;
+  color: white;
+}
+
+h6{
+font-size: 18px;
+
+}
+
+p{
+font-size: 27px;
+font-family: 'Lato', sans-serif;
+}
+ul{
+  padding: 2%;
+}
+ul li{
+line-height: 40px;
+}
+
+.a{
+  list-style-type: none;
+  text-decoration: none;
+  color: white;
+}
+.bod{
+  color: black;
 }
 .textform{
 top: 30%;
@@ -105,49 +78,56 @@ top: 30%;
 button{
   text-align: center;
 }
+
 .Essai{
+  font-size: 19px;
+  width: 10%;
   position: absolute;
   display: flex;
   left: 80%;
-  top: 77%;
+  top: 94%;
   justify-content: center;
 }
+
+.section2{
+  margin-bottom: -31px;
+}
+
 .form{
-  height: 818px;
+  height: 1070px;
   background-image: url("cinquieme.png");
   background-size: 100%;
   background-repeat: no-repeat;
   position:relative;
 }
-#formulaire{
-  width: 60px;
-  margin-top: auto;
-  display:block;
+
+form{
+  max-width: 150px;
+	margin-top: auto;
+	padding: 2px;
   position:relative;
-  display: block;
-  left: 60%;
-  top: 20%;
-  align-content:justify;
-}
-.formstyle{
-  max-width: 500px;
-	margin: 10px auto;
-	padding: 26px;
   font-family: 'Lato', sans-serif;
-  display: flex;
+  /*display: flex;*/
+  /*flex-direction: column;*/
   color: black;
+  left: 60%;
+  top: 10%;
 }
-.formstyle input[type="text"],
-.formstyle input[type="email"],
-.formstyle input[type="tel"]{
-	width: 350px;
-	margin-bottom: 20%;
+form input[type="text"],
+form input[type="email"],
+form input[type="number"]
+ {
+	width: 400px;
+	margin-bottom: 10%;
 	border: 1px solid #ccc;
-	padding: 20%;
+	padding: 7%;
 	font: 95% 'Lato', sans-serif;
   color:black;
 }
-.formstyle input[type="submit"]{
+.mc-field-group{
+  height: 50px;
+}
+form input[type="submit"]{
   background: black;
   color:white;
   width: 200px;
@@ -155,82 +135,244 @@ button{
   font-weight: bold;
   display: block;
   position:absolute;
-  left:90px;
+  left:100px;
 }
-
-
-
-
-
-
-
-
-
-
-
+.content__gdprLegal p{
+  font-size:13px;
+  font-family:'Lato', sans-serif;
 }
-
-.logor{
-
-
-}
-
 .social{
   display: inline-block;
 }
 /* section avec les 6 blocs*/
 
-section2{
-
-}
 .art1{
 display: flex;
 }
 .art2{
+height: 100%;
+width: 100%;
 display: flex;
 }
 .art3{
-
+width: 100%;
 display: flex;
 }
 .img1{
 width: 50%;
 }
-.img2{
+
+.img{
 width: 50%;
 }
-
+.img2{
+  width: 50%;
+}
 .blocimages{
-
 display: flex;
-width: 50%;
+width: 100%;
 
 }
 .img:hover{
 opacity: 0.5;
 cursor: pointer;
 }
+.space{
+float: right;
+
+}
 
 #bloc{
-border: 3px red;
 width: 50%;
 }
 
 #three{
-
-width: 50%;
+padding: 5% 5%  5% 5%;
+width: 40%;
 }
-
 .one{
-width: 50%;
+padding: 5% 5%  5% 5%;
+width: 40%;
 }
-
 
 .two{
+
+padding: 5% 5%  5% 5%;
 flex-direction: column;
-width: 50%;
+width: 30%;
 }
 
-#quatro{
-width: 30%
-}/
+footer{
+background-color: black;
+width: 100%;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+
+}
+
+footer li{
+color: white;
+list-style:none;
+text-decoration:none;
+
+}
+
+.liste2{
+  margin-right: 500px;
+
+}
+.logor{
+display: inline-block;
+}
+
+.rejoignez{
+display: flex;
+margin-right: 50px;
+color: white;
+}
+
+.liste3{
+display: flex;
+margin-right: 50px;
+color: white;
+}
+
+@media only screen and (max-width : 640px) {
+
+
+header{
+
+  width: 100%;
+
+}
+h1{
+
+  font-size: 30px;
+}
+h2{
+  text-align: center;
+  font-size: 40px;
+}
+h3{
+  font-size: 20px;
+}
+h4{
+  text-align: center;
+  font-size: 19px;
+}
+
+button{
+  width: 40%;
+  display: flex;
+}
+.Essai{
+
+  left: 28%;
+  top: 24%;
+width: 45%;
+
+}
+.bouton{
+display:inline-block;
+margin: 0 auto;
+}
+  .art1{
+  margin-top: -692px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  }
+  .art2{
+
+  display: flex;
+  flex-direction: column-reverse;
+  width: 100%;
+  }
+  .art3{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  }
+  .one{
+    width: 100%;
+
+  }
+  .img1{
+    width: 100%;
+  }
+  .two{
+    width: 100%;
+  }
+  .img2{
+    width: 100%;
+  }
+  #three{
+    width: 100%;
+  }
+  #bloc{
+    width: 100%;
+  }
+  footer{
+  margin-top: -72%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+
+  }
+  footer li{
+  color: white;
+  list-style:none;
+  text-decoration:none;
+
+  }
+  .logo{
+    width: 15%;
+    display:block;
+    margin: auto;
+  }
+  .logor{
+  display: flex;
+  flex-direction: row;
+
+  }
+  .liste1{
+    display: flex;
+    flex-direction:column;
+  }
+  .liste2{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-right: 0px;
+  }
+  .social{
+
+    margin: 31%;
+margin-top: 8%;
+  }
+  form{
+    max-width: 150px;
+  	margin-top: auto;
+  	padding: 2px;
+    position:relative;
+    font-family: 'Lato', sans-serif;
+    /*display: flex;*/
+    /*flex-direction: column;*/
+    color: black;
+    left: 6%;
+    top: 10%;
+  }
+  #mc_embed_signup_scroll{
+    margin-right: -126px;
+  }
+  #mc_embed_signup{
+    height: 1900px;
+  }
+
+  .content__gdprLegal p{
+    font-size: 10px;
+  }
+
+
+}
